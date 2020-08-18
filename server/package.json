@@ -1,0 +1,26 @@
+{
+  "name": "online_store_server",
+  "version": "1.0.0",
+  "description": "server side for online store app.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TilenOkretic/online_store.git"
+  },
+  "author": "Tilen Okretic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TilenOkretic/online_store/issues"
+  },
+  "homepage": "https://github.com/TilenOkretic/online_store#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
