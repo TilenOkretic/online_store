@@ -1,9 +1,9 @@
 module.exports = [{
-        title: "Acer Aspire 5 Slim",
-        discription: "Laptop",
+        title: "ASUS VivoBook",
+        discription: "Newest full HD laptop",
         price: 349.99,
         quantity: 3,
-        img_url: 'https://images-na.ssl-images-amazon.com/images/I/71vvXGmdKWL._AC_SL1500_.jpg'
+        img_url: 'https://images-na.ssl-images-amazon.com/images/I/51C46YsTJSL._AC_SL1000_.jpg'
     },
     {
         title: "Acer Predator Helios 300",
