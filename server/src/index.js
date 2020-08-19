@@ -24,8 +24,8 @@ app.get('/', (req, res) => {
 app.use('/api/v1/products', products_route);
 
 
-app.use(error_hanfler.errorHandler);
 app.use(error_hanfler.notFound);
+app.use(error_hanfler.errorHandler);
 
 
 

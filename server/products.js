@@ -6,11 +6,11 @@ module.exports = [{
         img_url: 'https://images-na.ssl-images-amazon.com/images/I/51C46YsTJSL._AC_SL1000_.jpg'
     },
     {
-        title: "Acer Predator Helios 300",
-        discription: "Gaming laptop",
+        title: "HP 14-inch HD Touchscreen Premium",
+        discription: "Laptop PC, AMD Ryzen 3 3200U Processor, 8GB DDR4 Memory, 256GB SSD, Bluetooth, Windows 10, Silver",
         price: 1199.99,
         quantity: 1,
-        img_url: 'https://images-na.ssl-images-amazon.com/images/I/71k45hZkLmL._AC_SL1500_.jpg'
+        img_url: 'https://images-na.ssl-images-amazon.com/images/I/51kbfGrA9YL._AC_SL1000_.jpg'
     },
     {
         title: "Acer Swift 3 Thin & Light",
