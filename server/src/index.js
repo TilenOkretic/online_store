@@ -5,6 +5,9 @@ const cors = require('cors');
 const error_hanfler = require('./error_handler');
 
 
+//ROUTES
+const products_route = require('../api/product.routes');
+
 const app = express();
 
 app.use(bodyParser.json());
@@ -16,7 +19,9 @@ app.get('/', (req, res) => {
     res.json({
         message: "Hello World!"
     })
-})
+});
+
+app.use('/api/v1/products', products_route);
 
 
 app.use(error_hanfler.errorHandler);
