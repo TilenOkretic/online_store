@@ -1,10 +1,14 @@
 const express = require('express');
+const queries = require('../db/queries');
 
 const router = express.Router();
 
 
+
 router.get('/', (req, res) => {
-    res.json([])
+    queries.getAll().then(products => {
+        res.json(products);
+    })
 });
 
 
