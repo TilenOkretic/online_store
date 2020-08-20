@@ -12,7 +12,7 @@ exports.up = function (knex) {
     return knex.schema.createTableIfNotExists(table_names.product, (table) => {
         table.increments();
         table.string('title').notNullable();
-        table.text('discription');
+        table.text('description');
         table.decimal('price').notNullable();
         table.integer('quantity').unsigned().notNullable();
         table.string('img_url');

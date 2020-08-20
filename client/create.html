@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online store App</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <style>
+        main {
+            margin-top: 1em;
+        }
+    </style>
+</head>
+<h1>Online Store</h1>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="/">HOME</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/create.html">Create <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="alert alert-danger" role="alert" id="errorMessage">
+        </div>
+        <form>
+            <div class="form-group">
+                <label for="title">Title</label>
+                <input type="text" class="form-control" name="title" id="title" placeholder="Enter a title">
+            </div>
+            <div class="form-group">
+                <label for="image">Image url</label>
+                <input type="url" class="form-control" name="img_url" id="description"
+                    placeholder="http://yourimage.com/img.png"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="description">Description</label>
+                <textarea class="form-control" id="description" name="description" placeholder=" Enter a description"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="price">Price</label>
+                <input type="number" step="0.01" class="form-control" name="price" id="price" placeholder=" Enter a price">
+            </div>
+            <div class="form-group">
+                <label for="quantity">Quantity</label>
+                <input type="number" class="form-control" name="quantity" id="quantity" placeholder=" Enter a quantity">
+            </div>
+            <button type="submit" class="btn btn-info">Submit</button>
+        </form>
+    </main>
+
+    <script src="shared.js"></script>
+    <script src="create.js"></script>
+
+</html>
