@@ -7,7 +7,7 @@ form.addEventListener('submit', formSubbmintion);
 
 function formSubbmintion(event) {
     event.preventDefault();
-    const product = validateFormSendDataRedirect(form, err_msg, createProduct);
+    const product = validateFormGetProduct(form, err_msg, createProduct);
 
     if (product) {
         createProduct(product).then(res => {

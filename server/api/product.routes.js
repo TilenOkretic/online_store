@@ -86,4 +86,12 @@ router.post('/', validProductMiddleware, (req, res) => {
     });
 });
 
+router.delete('/:id', validID, (req, res) => {
+    queries.delete(req.params.id).then(response => {
+        res.json({
+            message: 'Product deleted!'
+        })
+    });
+});
+
 module.exports = router;
